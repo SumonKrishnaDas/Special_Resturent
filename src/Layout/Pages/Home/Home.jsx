@@ -4,6 +4,8 @@ import Catagory from './Catagory/Catagory';
 import Poster from'./Poster'
 import PopularMenu from './PopularMenu/PopularMenu';
 import Card from './Card/Card';
+import Number from './Number';
+import Featured from './Featured';
 
 const Home = () => {
     return (
@@ -16,7 +18,9 @@ const Home = () => {
 </Catagory>
 <Poster> </Poster>
 <PopularMenu> </PopularMenu>
+<Number> </Number>
 <Card> </Card>
+<Featured> </Featured>
 
 
             
