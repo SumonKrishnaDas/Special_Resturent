@@ -8,23 +8,15 @@ import Number from './Number';
 import Featured from './Featured';
 import Testimonial from './Testimonial/Testimonial';
 import { Helmet, } from 'react-helmet-async';
-
 const Home = () => {
     return (
         <div>
-           
-
-
         <Helmet>
-            
-            <title>Home Page  </title>
-            
+             <title>Home Page</title>
             </Helmet>   
 
 <Banner> </Banner>
-<Catagory> 
-    
-</Catagory>
+<Catagory> </Catagory>
 <Poster> </Poster>
 <PopularMenu> </PopularMenu>
 <Number> </Number>

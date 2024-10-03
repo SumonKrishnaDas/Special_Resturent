@@ -1,9 +1,8 @@
 import React from 'react';
 import FoodCart from '../FoodCart';
-
 const OrderBox = ({items}) => {
-    return (
-        <div className='grid md:grid-cols-3 gap-4'>
+   return (
+     <div className='grid md:grid-cols-3 gap-4'>
         {
         items.map(item=><FoodCart
         key={item._id}
@@ -11,9 +10,7 @@ const OrderBox = ({items}) => {
         
         > </FoodCart>)
         }
-        
-
-        </div>
+         </div>
         
     );
 };

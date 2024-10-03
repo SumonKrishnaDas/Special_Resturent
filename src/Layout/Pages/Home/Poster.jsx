@@ -4,8 +4,7 @@ import'./poster.css'
 
 const Poster = () => {
     return (
-
-
+      
       <div className='background  flex items-center justify-center  '>
         <div className='bg-white py-14 px-10 bg'>
         <h1  className='text-4xl'> Special Resturent </h1>
