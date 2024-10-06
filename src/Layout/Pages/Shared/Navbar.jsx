@@ -30,7 +30,7 @@ const Navbar = ({ title }) => {
       
       <li><Link to='order/salad'>Order</Link></li>
 
-      <li><Link to='addToCart'>
+      <li><Link to='/dashboard/mycart'>
       
       
    <button className='btn gap-2' >
